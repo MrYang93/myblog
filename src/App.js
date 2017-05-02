@@ -22,7 +22,7 @@ componentWillReceiveProps(){
     this.setTitle();
   }
   setLeftNav(){
-    this.setState({showLeftNav: window.innerWidth > 750? true: false })
+    this.setState({showLeftNav: window.innerWidth > 750? true : false })
 
   }
 

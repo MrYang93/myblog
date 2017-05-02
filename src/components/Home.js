@@ -6,7 +6,7 @@ class Home extends React.Component {
       <div className="home">
         <div className="home-cover">
           <div>
-            <h1>I'M NEWMING</h1>
+            <h1>I'M Yangbinglin</h1>
             <p>FrontEnd Web Developer</p>
             <a href='https://mryang93.github.io'> MI GITHUN</a>
           </div>

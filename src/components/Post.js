@@ -21,7 +21,7 @@ class Post extends React.Component {
   }
 
   componentDidMount(){
-    axios.get(`https://raw.githubusercontent.com/MrYang93/mybolg/master/blogs/${this.props.params.title}.md`)
+    axios.get(`https://raw.githubusercontent.com/MrYang93/myblog/master/blogs/${this.props.params.title}.md`)
       .then( res => this.setState( {data: res.data}) )
   }
 
